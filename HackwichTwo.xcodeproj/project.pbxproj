@@ -16,6 +16,7 @@
 		DC7576DF27AB72E800D1CD50 /* HackwichTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7576DE27AB72E800D1CD50 /* HackwichTwoTests.swift */; };
 		DC7576E927AB72E800D1CD50 /* HackwichTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7576E827AB72E800D1CD50 /* HackwichTwoUITests.swift */; };
 		DC7576EB27AB72E800D1CD50 /* HackwichTwoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7576EA27AB72E800D1CD50 /* HackwichTwoUITestsLaunchTests.swift */; };
+		DC7576F827AB846700D1CD50 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7576F727AB846700D1CD50 /* ViewControllerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DC7576E427AB72E800D1CD50 /* HackwichTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7576E827AB72E800D1CD50 /* HackwichTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichTwoUITests.swift; sourceTree = "<group>"; };
 		DC7576EA27AB72E800D1CD50 /* HackwichTwoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichTwoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC7576F727AB846700D1CD50 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DC7576C927AB72E600D1CD50 /* SceneDelegate.swift */,
 				DC7576CB27AB72E600D1CD50 /* ViewController.swift */,
 				DC7576CD27AB72E600D1CD50 /* Main.storyboard */,
+				DC7576F727AB846700D1CD50 /* ViewControllerTwo.swift */,
 				DC7576D027AB72E800D1CD50 /* Assets.xcassets */,
 				DC7576D227AB72E800D1CD50 /* LaunchScreen.storyboard */,
 				DC7576D527AB72E800D1CD50 /* Info.plist */,
@@ -261,6 +264,7 @@
 				DC7576CC27AB72E600D1CD50 /* ViewController.swift in Sources */,
 				DC7576C827AB72E600D1CD50 /* AppDelegate.swift in Sources */,
 				DC7576CA27AB72E600D1CD50 /* SceneDelegate.swift in Sources */,
+				DC7576F827AB846700D1CD50 /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
