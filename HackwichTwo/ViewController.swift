@@ -16,12 +16,17 @@ class ViewController: UIViewController {
 
 
     
-    @IBAction func pressMeButtonPressed(_ sender: Any) {
+    @IBAction func pressMeButtonPressed(_ sender: Any)
+    {
     
-   printContent("Hello World")
+   print("Hello World")
     
     }
     
+    @IBAction func pressMeButtonPressed2(_ sender: Any)
+    {
+  print("I got this!")
+    }
     
     
     
