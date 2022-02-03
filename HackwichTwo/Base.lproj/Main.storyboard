@@ -81,6 +81,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="HCx-PN-Vsg"/>
+                    <connections>
+                        <outlet property="firstlabel" destination="cAa-jR-szZ" id="Du8-hg-Gcb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iCT-4R-B8F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
