@@ -8,7 +8,10 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
+//declare our variables right here!
+    
+    @IBOutlet weak var firstLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,13 +22,15 @@ class secondViewController: UIViewController {
     {
    //when button is pressed we want to change the background color of the view to blue
         self.view.backgroundColor = UIColor.blue
-    
-        var text: String {get set}
-        var textColor: UIColor! {get set}
+    //Part 7 set the text property of the label to a new string
+        firstLabel.text = "I created my first label and I've changed the text"
+        //Part 7 #4 set the text color property of the label to a color of your choice
+        firstLabel.textColor = UIColor.white
+        
     
     }
     
-    @IBOutlet weak var firstlabel: UILabel!
+  
     
     
     
